@@ -8,12 +8,12 @@ Multiple Pre-processing Options: Includes a variety of pre-processing techniques
 Customizable Workflow: Users can customize the pre-processing workflow based on their specific requirements, allowing for flexibility and adaptability.<br>
 Export Functionality: Allows users to export the pre-processed data in various formats for further analysis or modeling.<br>
 <br>
-<b>Getting Started</b>
+<h3>Getting Started</h3><br>
 To get started with the project, follow these steps:<br>
 
 Clone the Repository: Clone this repository to your local machine using <br>
 ```bash
-git clone https://github.com/yourusername/Data-Pre-processing-with-GUI-Development.git
+https://github.com/Bikas0/Data-Pre-processing-with-GUI-Development.git
 ```
 Install Dependencies: Install the necessary dependencies by running 
 ```bash
