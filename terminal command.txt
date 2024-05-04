@@ -1,0 +1,5 @@
+sudo apt-get install libxcb-xinerama0
+
+pyinstaller --onefile --windowed --osx-bundle-identifier=com.bikas.main main.py
+
+version = 3.12.1
