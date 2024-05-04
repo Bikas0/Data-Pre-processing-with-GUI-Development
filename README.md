@@ -1,5 +1,5 @@
 # Data Pre-processing with GUI Development
-This project focuses on simplifying the data pre-processing phase by providing an intuitive Graphical User Interface (GUI) for users to interact with. Data pre-processing is a crucial step in any data analysis or machine learning pipeline, often requiring multiple transformations and manipulations to prepare raw data for further analysis.
+This project focuses on simplifying the data pre-processing phase by providing an intuitive Graphical User Interface (GUI) for users to interact with. Data pre-processing is a crucial step in any data analysis or machine learning pipeline, often requiring multiple transformations and manipulations to prepare raw data for further analysis.<br>
 ![12](https://github.com/Bikas0/Data-Pre-processing-with-GUI-Development/assets/66817101/fba93e04-2743-43f2-bb82-bb62ba4bc673)
 
 <h1>Features</h1><br>
