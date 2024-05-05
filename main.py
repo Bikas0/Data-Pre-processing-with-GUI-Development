@@ -13,7 +13,7 @@ class ExcelProcessorApp(QtWidgets.QMainWindow):
         # Calculate the center position of the screen
         screen = QtWidgets.QDesktopWidget().screenGeometry()
         width, height = screen.width(), screen.height()
-        window_width, window_height = 600, 400
+        window_width, window_height = 800, 600
         self.setGeometry((width - window_width) // 2, (height - window_height) // 2, window_width, window_height)
 
         central_widget = QtWidgets.QWidget()
