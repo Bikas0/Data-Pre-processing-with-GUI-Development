@@ -30,6 +30,8 @@ Export Pre-processed Data: Once satisfied with the pre-processing steps, export 
 You can exclude your project folder from the windows virus check:<br>
 <a href="[https://www.example.com](https://stackoverflow.com/questions/77239487/win32ctypes-pywin32-pywintypes-error-when-using-pyinstaller-in-vs-code-possib)">https://stackoverflow.com/questions/77239487/win32ctypes-pywin32-pywintypes-error-when-using-pyinstaller-in-vs-code-possib</a>
 <br>
+
+
 ```bash
 Start -> Settings -> Privacy & Security -> Virus & threat protection
 manage settings -> exclusions -> add or remove exclusions
