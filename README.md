@@ -21,16 +21,24 @@ git clone https://github.com/Bikas0/Data-Pre-processing-with-GUI-Development.git
 cd Data-Pre-processing-with-GUI-Development
 git switch Auto-Annotations 
 ```
+2. Install in a Virtual Environment (Recommended)
+This keeps your environment clean:
 
-2. Install the required dependencies using pip:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+            or
+conda create -p venv python=3.11.5
+conda activate ./venv
+```
+
+3. Install the required dependencies using pip:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Sure, here's the markdown documentation for your Python code:
-✅ To fix it, you need to install PyInstaller:
-Option 1: Install Globally (System-wide)
+### Install Globally (System-wide) pyinstaller
 
 ```bash
 sudo apt-get update
@@ -42,14 +50,6 @@ Then verify installation:
 
 ```bash
 pyinstaller --version
-```
-
-Option 2: Install in a Virtual Environment (Recommended)
-This keeps your environment clean:
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
 ```
 
 ```bash
