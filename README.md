@@ -1,42 +1,97 @@
-# Data Pre-processing with GUI Development
-This project focuses on simplifying the data pre-processing phase by providing an intuitive Graphical User Interface (GUI) for users to interact with. Data pre-processing is a crucial step in any data analysis or machine learning pipeline, often requiring multiple transformations and manipulations to prepare raw data for further analysis.<br>
-![12](https://github.com/Bikas0/Data-Pre-processing-with-GUI-Development/assets/66817101/fba93e04-2743-43f2-bb82-bb62ba4bc673)
+# OCR Annotation Tool
 
-<h1>Features</h1><br>
-User-Friendly Interface: The GUI offers an intuitive and easy-to-use interface for users to interact with the pre-processing tools.<br>
-Multiple Pre-processing Options: Includes a variety of pre-processing techniques such as data cleaning, feature scaling, encoding categorical variables, handling missing values, and more.<br>
-Customizable Workflow: Users can customize the pre-processing workflow based on their specific requirements, allowing for flexibility and adaptability.<br>
-Export Functionality: Allows users to export the pre-processed data in various formats for further analysis or modeling.<br>
-<br>
-<h3>Getting Started</h3><br>
-To get started with the project, follow these steps:<br>
+## Overview
+This Python application serves as an OCR annotation tool, allowing users to annotate text extracted from images via Optical Character Recognition (OCR). The tool provides functionalities to open a CSV file containing image filenames and their corresponding labels, open an image folder for annotation, display images, edit labels, navigate between images, and update the CSV file with the annotations.
 
-Clone the Repository: Clone this repository to your local machine using <br>
-```bash
-https://github.com/Bikas0/Data-Pre-processing-with-GUI-Development.git
-```
-Install Dependencies: Install the necessary dependencies by running 
+## Features
+- **Open CSV File**: Load a CSV file containing image filenames and labels.
+- **Open Image Folder**: Select a folder containing images for annotation.
+- **Display Image and Label**: Show the selected image along with its current label.
+- **Edit Label**: Update the label for the displayed image.
+- **Navigate Images**: Move between images in the folder.
+- **Update Annotations**: Save changes to the labels back to the CSV file.
+- **Delete Image**: Remove the currently displayed image and its corresponding label.
+
+## Installation
+To run the OCR annotation tool, ensure you have Python 3.11.5 installed on your system. Then, follow these steps:
+1. Clone the repository containing the Python script.
+2. Install the required dependencies using pip:
+
 ```bash
 pip install -r requirements.txt
 ```
-Run the Application: Launch the GUI application by executing 
-```bash
-python main.py.
-````
-Start Pre-processing: Load your dataset and start pre-processing it using the available tools in the GUI.<br>
-Export Pre-processed Data: Once satisfied with the pre-processing steps, export the pre-processed data for further analysis.<br>
 
-<h3>GUI</h3>
-You can exclude your project folder from the windows virus check:<br>
-<a href="[https://www.example.com](https://stackoverflow.com/questions/77239487/win32ctypes-pywin32-pywintypes-error-when-using-pyinstaller-in-vs-code-possib)">https://stackoverflow.com/questions/77239487/win32ctypes-pywin32-pywintypes-error-when-using-pyinstaller-in-vs-code-possib</a>
-<br>
-
+Sure, here's the markdown documentation for your Python code:
+✅ To fix it, you need to install PyInstaller:
+Option 1: Install Globally (System-wide)
 
 ```bash
-Start -> Settings -> Privacy & Security -> Virus & threat protection
-manage settings -> exclusions -> add or remove exclusions
-add your project folder
+sudo apt-get update
+sudo apt-get install python3-pip
+pip3 install pyinstaller
 ```
-<br>
-<h3>Contributing</h3>
-Contributions are welcome! If you encounter any issues, have feature requests, or would like to contribute to the project, please feel free to open an issue or submit a pull request.
+
+Then verify installation:
+
+```bash
+pyinstaller --version
+```
+
+Option 2: Install in a Virtual Environment (Recommended)
+This keeps your environment clean:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+```bash
+pyinstaller --onefile --windowed app-premium.py
+```
+
+# OCR Annotation Tool
+
+## Overview
+This Python application serves as an OCR annotation tool, allowing users to annotate text extracted from images via Optical Character Recognition (OCR). The tool provides functionalities to open a CSV file containing image filenames and their corresponding labels, open an image folder for annotation, display images, edit labels, navigate between images, and update the CSV file with the annotations.
+
+## Features
+- **Open CSV File**: Load a CSV file containing image filenames and labels.
+- **Open Image Folder**: Select a folder containing images for annotation.
+- **Display Image and Label**: Show the selected image along with its current label.
+- **Edit Label**: Update the label for the displayed image.
+- **Navigate Images**: Move between images in the folder.
+- **Update Annotations**: Save changes to the labels back to the CSV file.
+- **Delete Image**: Remove the currently displayed image and its corresponding label.
+
+## Installation
+To run the OCR annotation tool, ensure you have Python 3.11.5 installed on your system. Then, follow these steps:
+1. Clone the repository containing the Python script.
+2. Install the required dependencies using pip: ```pip install PyQt5```
+3. Run the script: ```python app.py```
+
+
+
+## Usage
+1. **Open CSV File**: Click the "Open CSV File" button to load a CSV file containing image filenames and labels.
+2. **Open Image Folder**: Click the "Open Image Folder" button to select a folder containing images for annotation.
+3. **Display Image**: The tool displays the first image from the selected folder along with its label.
+4. **Edit Label**: Edit the label text in the provided text box.
+5. **Navigate Images**: Use the "Next" and "Previous" buttons to move between images in the folder.
+6. **Update Annotations**: Click the "Update" button to save changes to the label back to the CSV file.
+7. **Delete Image**: Click the "Delete" button to remove the currently displayed image and its label.
+
+## Technologies Used
+- **Python**: Programming language used for development.
+- **PyQt5**: GUI toolkit for creating desktop applications.
+- **CSV Module**: Python module for reading and writing CSV files.
+- **os Module**: Python module for interacting with the operating system.
+- **QFileDialog**: PyQt5 class for opening file dialogs.
+- **QPixmap**: PyQt5 class for displaying images.
+- **QMessageBox**: PyQt5 class for displaying message boxes.
+
+## Contributors
+- **[Bipin Saha]**: Developer (bipinsaha.bd@gmail.com)
+- **[Contributor Name]**: Contributor
+
+## License
+This project is licensed under the [MIT License](LICENSE).
